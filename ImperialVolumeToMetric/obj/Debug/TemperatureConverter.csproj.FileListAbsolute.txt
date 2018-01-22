@@ -1,0 +1,20 @@
+c:\users\3106909413\documents\visual studio 2012\Projects\ConvertTemperature\ConvertTemperature\bin\Debug\ConvertTemperature.dll
+c:\users\3106909413\documents\visual studio 2012\Projects\ConvertTemperature\ConvertTemperature\bin\Debug\ConvertTemperature.pdb
+c:\users\3106909413\documents\visual studio 2012\Projects\ConvertTemperature\ConvertTemperature\obj\Debug\ConvertTemperature.dll
+c:\users\3106909413\documents\visual studio 2012\Projects\ConvertTemperature\ConvertTemperature\obj\Debug\ConvertTemperature.pdb
+C:\Users\Kupo\Documents\Visual Studio 2013\Projects\ConvertTemperature\ConvertTemperature\bin\Debug\ConvertTemperature.dll
+C:\Users\Kupo\Documents\Visual Studio 2013\Projects\ConvertTemperature\ConvertTemperature\bin\Debug\ConvertTemperature.pdb
+C:\Users\Kupo\Documents\Visual Studio 2013\Projects\ConvertTemperature\ConvertTemperature\obj\Debug\TemperatureConverter.csprojResolveAssemblyReference.cache
+C:\Users\Kupo\Documents\Visual Studio 2013\Projects\ConvertTemperature\ConvertTemperature\obj\Debug\ConvertTemperature.dll
+C:\Users\Kupo\Documents\Visual Studio 2013\Projects\ConvertTemperature\ConvertTemperature\obj\Debug\ConvertTemperature.pdb
+C:\Users\3106909413\Documents\Visual Studio 2012\Projects\ConvertTemperature\ConvertTemperature\obj\Debug\TemperatureConverter.csprojResolveAssemblyReference.cache
+C:\Users\Kupo\Documents\Programs\Cornell_Peter_ WebService _AS2\Cornell_Peter_ WebService _AS2\ConvertTemperature\ConvertTemperature\bin\Debug\ConvertTemperature.dll
+C:\Users\Kupo\Documents\Programs\Cornell_Peter_ WebService _AS2\Cornell_Peter_ WebService _AS2\ConvertTemperature\ConvertTemperature\bin\Debug\ConvertTemperature.pdb
+C:\Users\Kupo\Documents\Programs\Cornell_Peter_ WebService _AS2\Cornell_Peter_ WebService _AS2\ConvertTemperature\ConvertTemperature\obj\Debug\TemperatureConverter.csprojResolveAssemblyReference.cache
+C:\Users\Kupo\Documents\Programs\Cornell_Peter_ WebService _AS2\Cornell_Peter_ WebService _AS2\ConvertTemperature\ConvertTemperature\obj\Debug\ConvertTemperature.dll
+C:\Users\Kupo\Documents\Programs\Cornell_Peter_ WebService _AS2\Cornell_Peter_ WebService _AS2\ConvertTemperature\ConvertTemperature\obj\Debug\ConvertTemperature.pdb
+F:\Visual Studio C#\temperature-converter-master\ConvertTemperature\bin\Debug\ConvertTemperature.dll
+F:\Visual Studio C#\temperature-converter-master\ConvertTemperature\bin\Debug\ConvertTemperature.pdb
+F:\Visual Studio C#\temperature-converter-master\ConvertTemperature\obj\Debug\TemperatureConverter.csprojResolveAssemblyReference.cache
+F:\Visual Studio C#\temperature-converter-master\ConvertTemperature\obj\Debug\ConvertTemperature.dll
+F:\Visual Studio C#\temperature-converter-master\ConvertTemperature\obj\Debug\ConvertTemperature.pdb

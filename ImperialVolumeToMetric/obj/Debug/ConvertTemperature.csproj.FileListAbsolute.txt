@@ -1,0 +1,5 @@
+c:\users\3106909413\documents\visual studio 2012\Projects\ConvertTemperature\ConvertTemperature\bin\Debug\ConvertTemperature.pdb
+c:\users\3106909413\documents\visual studio 2012\Projects\ConvertTemperature\ConvertTemperature\obj\Debug\ConvertTemperature.csprojResolveAssemblyReference.cache
+c:\users\3106909413\documents\visual studio 2012\Projects\ConvertTemperature\ConvertTemperature\obj\Debug\ConvertTemperature.pdb
+c:\users\3106909413\documents\visual studio 2012\Projects\ConvertTemperature\ConvertTemperature\bin\Debug\ConvertTemperature.exe
+c:\users\3106909413\documents\visual studio 2012\Projects\ConvertTemperature\ConvertTemperature\obj\Debug\ConvertTemperature.exe

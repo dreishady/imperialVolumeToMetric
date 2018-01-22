@@ -1,0 +1,42 @@
+C:\Users\Kupo\Documents\Visual Studio 2013\Projects\ConvertTemperature\TempConverterClient\bin\Debug\TempConverterClient.exe.config
+C:\Users\Kupo\Documents\Visual Studio 2013\Projects\ConvertTemperature\TempConverterClient\bin\Debug\TempConverterClient.exe
+C:\Users\Kupo\Documents\Visual Studio 2013\Projects\ConvertTemperature\TempConverterClient\bin\Debug\TempConverterClient.pdb
+C:\Users\Kupo\Documents\Visual Studio 2013\Projects\ConvertTemperature\TempConverterClient\obj\Debug\TempConverterClient.csprojResolveAssemblyReference.cache
+C:\Users\Kupo\Documents\Visual Studio 2013\Projects\ConvertTemperature\TempConverterClient\obj\Debug\TempConverterClient.Properties.Resources.resources
+C:\Users\Kupo\Documents\Visual Studio 2013\Projects\ConvertTemperature\TempConverterClient\obj\Debug\TempConverterClient.csproj.GenerateResource.Cache
+C:\Users\Kupo\Documents\Visual Studio 2013\Projects\ConvertTemperature\TempConverterClient\obj\Debug\TempConverterClient.exe
+C:\Users\Kupo\Documents\Visual Studio 2013\Projects\ConvertTemperature\TempConverterClient\obj\Debug\TempConverterClient.pdb
+C:\Users\Kupo\Documents\Visual Studio 2013\Projects\ConvertTemperature\TempConverterClient\obj\Debug\TempConverterClient.frmTempConverterClient.resources
+C:\Users\3106909413\Documents\Visual Studio 2012\Projects\ConvertTemperature\TempConverterClient\bin\Debug\TempConverterClient.exe.config
+C:\Users\3106909413\Documents\Visual Studio 2012\Projects\ConvertTemperature\TempConverterClient\obj\Debug\TempConverterClient.exe
+C:\Users\3106909413\Documents\Visual Studio 2012\Projects\ConvertTemperature\TempConverterClient\obj\Debug\TempConverterClient.pdb
+C:\Users\3106909413\Documents\Visual Studio 2012\Projects\ConvertTemperature\TempConverterClient\bin\Debug\TempConverterClient.exe
+C:\Users\3106909413\Documents\Visual Studio 2012\Projects\ConvertTemperature\TempConverterClient\bin\Debug\TempConverterClient.pdb
+C:\Users\3106909413\Documents\Visual Studio 2012\Projects\ConvertTemperature\TempConverterClient\obj\Debug\TempConverterClient.csprojResolveAssemblyReference.cache
+C:\Users\3106909413\Documents\Visual Studio 2012\Projects\ConvertTemperature\TempConverterClient\obj\Debug\TempConverterClient.frmTempConverterClient.resources
+C:\Users\3106909413\Documents\Visual Studio 2012\Projects\ConvertTemperature\TempConverterClient\obj\Debug\TempConverterClient.Properties.Resources.resources
+C:\Users\3106909413\Documents\Visual Studio 2012\Projects\ConvertTemperature\TempConverterClient\obj\Debug\TempConverterClient.csproj.GenerateResource.Cache
+C:\Users\Kupo\Documents\Programs\Cornell_Peter_ WebService _AS2\Cornell_Peter_ WebService _AS2\ConvertTemperature\TempConverterClient\bin\Debug\TempConverterClient.exe.config
+C:\Users\Kupo\Documents\Programs\Cornell_Peter_ WebService _AS2\Cornell_Peter_ WebService _AS2\ConvertTemperature\TempConverterClient\obj\Debug\TempConverterClient.exe
+C:\Users\Kupo\Documents\Programs\Cornell_Peter_ WebService _AS2\Cornell_Peter_ WebService _AS2\ConvertTemperature\TempConverterClient\obj\Debug\TempConverterClient.pdb
+C:\Users\Kupo\Documents\Programs\Cornell_Peter_ WebService _AS2\Cornell_Peter_ WebService _AS2\ConvertTemperature\TempConverterClient\bin\Debug\TempConverterClient.exe
+C:\Users\Kupo\Documents\Programs\Cornell_Peter_ WebService _AS2\Cornell_Peter_ WebService _AS2\ConvertTemperature\TempConverterClient\bin\Debug\TempConverterClient.pdb
+C:\Users\Kupo\Documents\Programs\Cornell_Peter_ WebService _AS2\Cornell_Peter_ WebService _AS2\ConvertTemperature\TempConverterClient\obj\Debug\TempConverterClient.csprojResolveAssemblyReference.cache
+C:\Users\Kupo\Documents\Programs\Cornell_Peter_ WebService _AS2\Cornell_Peter_ WebService _AS2\ConvertTemperature\TempConverterClient\obj\Debug\TempConverterClient.frmTempConverterClient.resources
+C:\Users\Kupo\Documents\Programs\Cornell_Peter_ WebService _AS2\Cornell_Peter_ WebService _AS2\ConvertTemperature\TempConverterClient\obj\Debug\TempConverterClient.Properties.Resources.resources
+C:\Users\Kupo\Documents\Programs\Cornell_Peter_ WebService _AS2\Cornell_Peter_ WebService _AS2\ConvertTemperature\TempConverterClient\obj\Debug\TempConverterClient.csproj.GenerateResource.Cache
+C:\Users\dreis\Desktop\temperature-converter-master\TempConverterClient\bin\Debug\TempConverterClient.exe.config
+C:\Users\dreis\Desktop\temperature-converter-master\TempConverterClient\obj\Debug\TempConverterClient.exe
+C:\Users\dreis\Desktop\temperature-converter-master\TempConverterClient\obj\Debug\TempConverterClient.pdb
+F:\Visual Studio C#\temperature-converter-master\TempConverterClient\bin\Debug\TempConverterClient.exe.config
+F:\Visual Studio C#\temperature-converter-master\TempConverterClient\obj\Debug\TempConverterClient.exe
+F:\Visual Studio C#\temperature-converter-master\TempConverterClient\obj\Debug\TempConverterClient.pdb
+F:\Visual Studio C#\temperature-converter-master\TempConverterClient\bin\Debug\TempConverterClient.exe
+F:\Visual Studio C#\temperature-converter-master\TempConverterClient\bin\Debug\TempConverterClient.pdb
+F:\Visual Studio C#\temperature-converter-master\TempConverterClient\obj\Debug\TempConverterClient.csprojResolveAssemblyReference.cache
+F:\Visual Studio C#\temperature-converter-master\TempConverterClient\obj\Debug\TempConverterClient.frmTempConverterClient.resources
+F:\Visual Studio C#\temperature-converter-master\TempConverterClient\obj\Debug\TempConverterClient.Properties.Resources.resources
+F:\Visual Studio C#\temperature-converter-master\TempConverterClient\obj\Debug\TempConverterClient.csproj.GenerateResource.Cache
+C:\Users\3106107616\Documents\Visual Studio 2015\Projects\temperature-converter-master\TempConverterClient\bin\Debug\TempConverterClient.exe.config
+C:\Users\3106107616\Documents\Visual Studio 2015\Projects\temperature-converter-master\TempConverterClient\obj\Debug\TempConverterClient.exe
+C:\Users\3106107616\Documents\Visual Studio 2015\Projects\temperature-converter-master\TempConverterClient\obj\Debug\TempConverterClient.pdb

@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="fluidToOunce">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="fo" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="fluidToOunceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="fluidToOunceResult" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="gillToMill">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="gm" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="gillToMillResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="gillToMillResult" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="cupToMill">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="cm" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="cupToMillResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="cupToMillResult" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="pintToGill">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="pg" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="pintToGillResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="pintToGillResult" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="pintToFluidOunce">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="pfo" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="pintToFluidOunceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="pintToFluidOunceResult" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="quartToMill">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="qm" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="quartToMillResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="quartToMillResult" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="gallToQuart">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="gq" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="gallToQuartResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="gallToQuartResult" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="gallToPint">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="gp" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="gallToPintResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="gallToPintResult" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BarToLitres">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="bl" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BarToLitresResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="BarToLitresResult" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="fluidToOunceSoapIn">
+    <wsdl:part name="parameters" element="tns:fluidToOunce" />
+  </wsdl:message>
+  <wsdl:message name="fluidToOunceSoapOut">
+    <wsdl:part name="parameters" element="tns:fluidToOunceResponse" />
+  </wsdl:message>
+  <wsdl:message name="gillToMillSoapIn">
+    <wsdl:part name="parameters" element="tns:gillToMill" />
+  </wsdl:message>
+  <wsdl:message name="gillToMillSoapOut">
+    <wsdl:part name="parameters" element="tns:gillToMillResponse" />
+  </wsdl:message>
+  <wsdl:message name="cupToMillSoapIn">
+    <wsdl:part name="parameters" element="tns:cupToMill" />
+  </wsdl:message>
+  <wsdl:message name="cupToMillSoapOut">
+    <wsdl:part name="parameters" element="tns:cupToMillResponse" />
+  </wsdl:message>
+  <wsdl:message name="pintToGillSoapIn">
+    <wsdl:part name="parameters" element="tns:pintToGill" />
+  </wsdl:message>
+  <wsdl:message name="pintToGillSoapOut">
+    <wsdl:part name="parameters" element="tns:pintToGillResponse" />
+  </wsdl:message>
+  <wsdl:message name="pintToFluidOunceSoapIn">
+    <wsdl:part name="parameters" element="tns:pintToFluidOunce" />
+  </wsdl:message>
+  <wsdl:message name="pintToFluidOunceSoapOut">
+    <wsdl:part name="parameters" element="tns:pintToFluidOunceResponse" />
+  </wsdl:message>
+  <wsdl:message name="quartToMillSoapIn">
+    <wsdl:part name="parameters" element="tns:quartToMill" />
+  </wsdl:message>
+  <wsdl:message name="quartToMillSoapOut">
+    <wsdl:part name="parameters" element="tns:quartToMillResponse" />
+  </wsdl:message>
+  <wsdl:message name="gallToQuartSoapIn">
+    <wsdl:part name="parameters" element="tns:gallToQuart" />
+  </wsdl:message>
+  <wsdl:message name="gallToQuartSoapOut">
+    <wsdl:part name="parameters" element="tns:gallToQuartResponse" />
+  </wsdl:message>
+  <wsdl:message name="gallToPintSoapIn">
+    <wsdl:part name="parameters" element="tns:gallToPint" />
+  </wsdl:message>
+  <wsdl:message name="gallToPintSoapOut">
+    <wsdl:part name="parameters" element="tns:gallToPintResponse" />
+  </wsdl:message>
+  <wsdl:message name="BarToLitresSoapIn">
+    <wsdl:part name="parameters" element="tns:BarToLitres" />
+  </wsdl:message>
+  <wsdl:message name="BarToLitresSoapOut">
+    <wsdl:part name="parameters" element="tns:BarToLitresResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebService1Soap">
+    <wsdl:operation name="fluidToOunce">
+      <wsdl:input message="tns:fluidToOunceSoapIn" />
+      <wsdl:output message="tns:fluidToOunceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="gillToMill">
+      <wsdl:input message="tns:gillToMillSoapIn" />
+      <wsdl:output message="tns:gillToMillSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="cupToMill">
+      <wsdl:input message="tns:cupToMillSoapIn" />
+      <wsdl:output message="tns:cupToMillSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="pintToGill">
+      <wsdl:input message="tns:pintToGillSoapIn" />
+      <wsdl:output message="tns:pintToGillSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="pintToFluidOunce">
+      <wsdl:input message="tns:pintToFluidOunceSoapIn" />
+      <wsdl:output message="tns:pintToFluidOunceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="quartToMill">
+      <wsdl:input message="tns:quartToMillSoapIn" />
+      <wsdl:output message="tns:quartToMillSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="gallToQuart">
+      <wsdl:input message="tns:gallToQuartSoapIn" />
+      <wsdl:output message="tns:gallToQuartSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="gallToPint">
+      <wsdl:input message="tns:gallToPintSoapIn" />
+      <wsdl:output message="tns:gallToPintSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BarToLitres">
+      <wsdl:input message="tns:BarToLitresSoapIn" />
+      <wsdl:output message="tns:BarToLitresSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebService1Soap" type="tns:WebService1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="fluidToOunce">
+      <soap:operation soapAction="http://tempuri.org/fluidToOunce" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="gillToMill">
+      <soap:operation soapAction="http://tempuri.org/gillToMill" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="cupToMill">
+      <soap:operation soapAction="http://tempuri.org/cupToMill" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pintToGill">
+      <soap:operation soapAction="http://tempuri.org/pintToGill" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pintToFluidOunce">
+      <soap:operation soapAction="http://tempuri.org/pintToFluidOunce" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="quartToMill">
+      <soap:operation soapAction="http://tempuri.org/quartToMill" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="gallToQuart">
+      <soap:operation soapAction="http://tempuri.org/gallToQuart" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="gallToPint">
+      <soap:operation soapAction="http://tempuri.org/gallToPint" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BarToLitres">
+      <soap:operation soapAction="http://tempuri.org/BarToLitres" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebService1Soap12" type="tns:WebService1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="fluidToOunce">
+      <soap12:operation soapAction="http://tempuri.org/fluidToOunce" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="gillToMill">
+      <soap12:operation soapAction="http://tempuri.org/gillToMill" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="cupToMill">
+      <soap12:operation soapAction="http://tempuri.org/cupToMill" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pintToGill">
+      <soap12:operation soapAction="http://tempuri.org/pintToGill" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pintToFluidOunce">
+      <soap12:operation soapAction="http://tempuri.org/pintToFluidOunce" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="quartToMill">
+      <soap12:operation soapAction="http://tempuri.org/quartToMill" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="gallToQuart">
+      <soap12:operation soapAction="http://tempuri.org/gallToQuart" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="gallToPint">
+      <soap12:operation soapAction="http://tempuri.org/gallToPint" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BarToLitres">
+      <soap12:operation soapAction="http://tempuri.org/BarToLitres" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebService1">
+    <wsdl:port name="WebService1Soap" binding="tns:WebService1Soap">
+      <soap:address location="http://localhost:62475/WebService1.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebService1Soap12" binding="tns:WebService1Soap12">
+      <soap12:address location="http://localhost:62475/WebService1.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,5 @@
+C:\Users\3106107616\Documents\Visual Studio 2015\Projects\temperature-converter-master\ConvertTemperature\bin\Debug\ConvertTemperature.dll
+C:\Users\3106107616\Documents\Visual Studio 2015\Projects\temperature-converter-master\ConvertTemperature\bin\Debug\ConvertTemperature.pdb
+C:\Users\3106107616\Documents\Visual Studio 2015\Projects\temperature-converter-master\ConvertTemperature\obj\Debug\ImperialVolumeToMetric.csprojResolveAssemblyReference.cache
+C:\Users\3106107616\Documents\Visual Studio 2015\Projects\temperature-converter-master\ConvertTemperature\obj\Debug\ConvertTemperature.dll
+C:\Users\3106107616\Documents\Visual Studio 2015\Projects\temperature-converter-master\ConvertTemperature\obj\Debug\ConvertTemperature.pdb
